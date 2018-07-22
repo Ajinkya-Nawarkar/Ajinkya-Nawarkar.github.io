@@ -20,8 +20,6 @@ body h1,h2,h3,h4,h5,h6{
 	    font-family: 'Asap', sans-serif;
 }
 
-.alt-font {font-family: 'Quicksand', sans-serif !important;}
-
 /*-- header --*/
 #home {
     background: url(../images/brain1.jpg) no-repeat center top;
@@ -2046,10 +2044,25 @@ span.border.three:after {
 
 /* Darker background on mouse-over for faux index.html*/
 
-.row {
-  margin-top: 40px;
+.col-md-8{
+  margin-top: 30px;
+  padding-bottom: 5px;
 }
 
-.inline-list.li a{
+.col-md-4{
+  margin-top: 30px;
+}
+
+ul.list-inline li a{
+   color: #00a78e;
+   font-size: 0.8em;
+  text-decoration:none;
+  
+}
+ul.list-inline li a:hover{
   color: #428bca
 }
+
+.alt-font {font-family: 'Quicksand', sans-serif !important;}
+
+   
