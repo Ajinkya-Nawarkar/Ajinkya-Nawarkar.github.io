@@ -254,6 +254,31 @@ background-position: 3px -94px;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.social {
+  text-align: center
+}
+.social ul {
+  margin:5px 0 0 0;
+  padding:0
+}
+.social li {
+  display:inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-size:1.15em;
+  list-style:none
+}
+
+.social a {
+  display:block;
+  color:#ffffff;
+  padding:10px
+}
+
+.social a:hover {
+  color:#00a78e
+}
+
 /*-- wellcome-note --*/
 .welcome-note{
 	margin:3em 0;
@@ -1192,7 +1217,7 @@ span.border.two:after {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 650px;
-    padding:5em 0 0em 0;
+    padding:5em 0 0 0;
 }
 .footer_top ul li{
 	font-size:22px;
@@ -1315,7 +1340,7 @@ span.border.two:after {
 	}
 	.footer {
 		min-height: 587px;
-		padding: 3em 0 0em 0;
+		padding: 3em 0 3em 0;
 	}
 	ul.year li:nth-child(2) {
 		margin-top: 157px;
