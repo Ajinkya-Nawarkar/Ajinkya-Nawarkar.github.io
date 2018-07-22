@@ -19,6 +19,7 @@ body a{
 body h1,h2,h3,h4,h5,h6{
 	    font-family: 'Asap', sans-serif;
 }
+
 /*-- header --*/
 #home {
     background: url(../images/brain1.jpg) no-repeat center top;
@@ -258,14 +259,14 @@ background-position: 3px -94px;
   text-align: center
 }
 .social ul {
-  margin:5px 0 0 0;
+  margin:20px 0 45px 0;
   padding:0
 }
 .social li {
   display:inline-block;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
-  font-size:1.15em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size:1.25em;
   list-style:none
 }
 
@@ -1208,6 +1209,25 @@ span.border.two:after {
     top: -4px;
     left:65px;
 }
+span.border.three {
+    width: 25%;
+    background: #fff;
+    height: 1px;
+    display: block;
+    margin-top: 26px;
+    position: relative;
+    margin: 23px auto 0px;
+}
+span.border.three:after {
+    content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left:110px;
+}
 /*-- footer --*/
 .footer {
     background: url(../images/contact.jpeg) no-repeat center top;
@@ -2023,6 +2043,26 @@ span.border.two:after {
 }
 
 /* Darker background on mouse-over for faux index.html*/
-.btn:hover {
-  background-color: RoyalBlue;
+
+.col-md-8{
+  margin-top: 30px;
+  padding-bottom: 5px;
 }
+
+.col-md-4{
+  margin-top: 30px;
+}
+
+ul.list-inline li a{
+   color: #00a78e;
+   font-size: 0.8em;
+  text-decoration:none;
+  
+}
+ul.list-inline li a:hover{
+  color: #428bca
+}
+
+.alt-font {font-family: 'Quicksand', sans-serif !important;}
+
+   
