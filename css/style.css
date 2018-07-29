@@ -2048,9 +2048,19 @@ span.border.three:after {
   margin-top: 30px;
   padding-bottom: 5px;
 }
+ul.col-md-8{
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .col-md-4{
   margin-top: 30px;
+}
+
+ul.col-md-4{
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul.list-inline li a{
