@@ -777,7 +777,7 @@ h4.timeline-title {
 }
 ul.year {
     text-align: right;
-	    margin-left: 13em;
+	    margin-left: 0em;
 }
 ul.year li {
      list-style: none;
