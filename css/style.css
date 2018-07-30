@@ -19,6 +19,7 @@ body a{
 body h1,h2,h3,h4,h5,h6{
 	    font-family: 'Asap', sans-serif;
 }
+
 /*-- header --*/
 #home {
     background: url(../images/brain1.jpg) no-repeat center top;
@@ -252,6 +253,31 @@ background-position: 3px -94px;
 .social-icons li a:hover::before {
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.social {
+  text-align: center
+}
+.social ul {
+  margin:20px 0 45px 0;
+  padding:0
+}
+.social li {
+  display:inline-block;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size:1.25em;
+  list-style:none
+}
+
+.social a {
+  display:block;
+  color:#ffffff;
+  padding:10px
+}
+
+.social a:hover {
+  color:#00a78e
 }
 
 /*-- wellcome-note --*/
@@ -751,7 +777,7 @@ h4.timeline-title {
 }
 ul.year {
     text-align: right;
-	    margin-left: 13em;
+	    margin-left: 0em;
 }
 ul.year li {
      list-style: none;
@@ -1183,6 +1209,25 @@ span.border.two:after {
     top: -4px;
     left:65px;
 }
+span.border.three {
+    width: 25%;
+    background: #fff;
+    height: 1px;
+    display: block;
+    margin-top: 26px;
+    position: relative;
+    margin: 23px auto 0px;
+}
+span.border.three:after {
+    content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left:110px;
+}
 /*-- footer --*/
 .footer {
     background: url(../images/contact.jpeg) no-repeat center top;
@@ -1192,7 +1237,7 @@ span.border.two:after {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 650px;
-    padding:5em 0 0em 0;
+    padding:5em 0 0 0;
 }
 .footer_top ul li{
 	font-size:22px;
@@ -1315,7 +1360,7 @@ span.border.two:after {
 	}
 	.footer {
 		min-height: 587px;
-		padding: 3em 0 0em 0;
+		padding: 3em 0 3em 0;
 	}
 	ul.year li:nth-child(2) {
 		margin-top: 157px;
@@ -1998,6 +2043,36 @@ span.border.two:after {
 }
 
 /* Darker background on mouse-over for faux index.html*/
-.btn:hover {
-  background-color: RoyalBlue;
+
+.col-md-8{
+  margin-top: 30px;
+  padding-bottom: 5px;
 }
+ul.col-md-8{
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.col-md-4{
+  margin-top: 30px;
+}
+
+ul.col-md-4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.list-inline li a{
+   color: #00a78e;
+   font-size: 0.8em;
+  text-decoration:none;
+  
+}
+ul.list-inline li a:hover{
+  color: #428bca
+}
+
+.alt-font {font-family: 'Quicksand', sans-serif !important;}
+
+   
