@@ -2028,6 +2028,8 @@ span.border.three:after {
 	}
 }
 
+/* Extra css styling */
+
 .invert{
     -webkit-filter: invert(100%);
 }
@@ -2075,4 +2077,11 @@ ul.list-inline li a:hover{
 
 .alt-font {font-family: 'Quicksand', sans-serif !important;}
 
-   
+.center {
+    background: rgba(23, 20, 20, 0.58);
+    background-color: red; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
