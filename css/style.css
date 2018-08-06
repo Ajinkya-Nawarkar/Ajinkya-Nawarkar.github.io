@@ -2028,18 +2028,24 @@ span.border.three:after {
 	}
 }
 
+/* Extra css styling */
+
 .invert{
     -webkit-filter: invert(100%);
 }
 
 /* Style buttons for faux index.html */
 .btn {
-  background-color: DodgerBlue;
-  border: none;
+  background-color: transparent;
+  border: 2px solid #00a78e;
   color: white;
-  padding: 12px 30px;
+  padding: 6px 10px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.btn:hover{
+  color: #00a78e
 }
 
 /* Darker background on mouse-over for faux index.html*/
@@ -2075,4 +2081,11 @@ ul.list-inline li a:hover{
 
 .alt-font {font-family: 'Quicksand', sans-serif !important;}
 
-   
+.center {
+    background: rgba(23, 20, 20, 0.58);
+    background-color: red; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
