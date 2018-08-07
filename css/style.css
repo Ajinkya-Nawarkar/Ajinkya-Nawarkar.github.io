@@ -419,6 +419,15 @@ span.border {
     position: relative;
     margin: 23px auto 0px;
 }
+span.border-long {
+    width: 68%;
+    background: #8C8989;
+    height: 1px;
+    display: block;
+    margin-top: 26px;
+    position: relative;
+    margin: 23px auto 0px;
+}
  span.border:after {
        content: ' ';
     position: absolute;
@@ -428,6 +437,16 @@ span.border {
     width: 73px;
     top: -4px;
     left: 103px;
+}
+span.border-long:after {
+       content: ' ';
+    position: absolute;
+    background: #00a78e;
+    height: 7px;
+    display: block;
+    width: 73px;
+    top: -4px;
+    left: 470px;
 }
 span.border.one:after {
     content: ' ';
