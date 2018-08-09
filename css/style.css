@@ -2112,8 +2112,7 @@ ul.list-inline li a:hover{
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 50%;
-    padding-top: 35px; height: 0; overflow: hidden;
+    padding-bottom: 37%;
 }
 
 .videoWrapper iframe,
