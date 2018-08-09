@@ -420,7 +420,7 @@ span.border {
     margin: 23px auto 0px;
 }
 span.border-long {
-    width: 68%;
+    width: 26%;
     background: #8C8989;
     height: 1px;
     display: block;
@@ -444,9 +444,9 @@ span.border-long:after {
     background: #00a78e;
     height: 7px;
     display: block;
-    width: 955px;
+    width: 105px;
     top: -4px;
-    left: 49px;
+    left: 140px;
 }
 span.border.one:after {
     content: ' ';
