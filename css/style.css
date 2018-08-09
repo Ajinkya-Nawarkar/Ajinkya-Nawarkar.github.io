@@ -2136,7 +2136,7 @@ ul.list-inline li a:hover{
 
 .image .video-popup {
   color: #fff;
-  background: rgba(66, 188, 127, 0.6);
+  background: #00a78e;
   height: 60px;
   width: 60px;
   line-height: 60px;
@@ -2155,8 +2155,9 @@ ul.list-inline li a:hover{
   padding-left: 3px;
   padding-top: 1px;
 }
+
 .video-popup:hover{
   transform:scale(1.1);
   color:#fff;
-  background:#3339;
+  background:red;
 }
