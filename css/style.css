@@ -2103,9 +2103,25 @@ ul.list-inline li a:hover{
 
 .center {
     background: rgba(23, 20, 20, 0.58);
-    background-color: red; 
+    background-color: #f4f4f4; 
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 35px; height: 0; overflow: hidden;
+}
+
+.videoWrapper iframe,
+.videoWrapper object,
+.videoWrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
