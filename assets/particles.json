@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 250,
+      "value": 300,
       "density": {
         "enable": true,
         "value_area": 1600
@@ -11,13 +11,13 @@
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": ["circle", "edge", "triangle", "star"],
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 4
       },
       "image": {
         "src": "img/github.svg",
