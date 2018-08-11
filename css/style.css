@@ -21,7 +21,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 
 /*-- header --*/
-#home {
+#home{
     background: url(../images/brain1.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
@@ -32,7 +32,7 @@ body h1,h2,h3,h4,h5,h6{
 	position: relative;
 }
 .top-header {
-	padding: 2em 0;
+	padding: 4em 0;
 }
 .logo h1 {
     margin: 0;
@@ -102,7 +102,7 @@ span.menu{
 /*--banner-info--*/
 .banner-info {
     
-    margin-top: 4em;
+    margin-top: 6em;
 }
 .header-left {
     padding: 3em;
@@ -2162,4 +2162,13 @@ ul.list-inline li a:hover{
   transform:scale(1.1);
   color:#fff;
   background:red;
+}
+
+#particles-js{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
