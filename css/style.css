@@ -294,7 +294,7 @@ background-position: 3px -94px;
 .news-text {
     float: right;
     padding: 3.38em 2em;
-    background: #f4f4f4;
+    background: #fff;
 }
 .news-img {
     float: left;
@@ -362,7 +362,7 @@ ul.news {
 }
 .news-grid {
     margin: 2em 0;
-    background: #f4f4f4;
+    background: #fff;
 }
 .news-grid:hover{
 		transition:0.5s all;
@@ -377,6 +377,13 @@ ul.news {
 }
 .blog {
     padding:5em 0;
+    background: url(../images/backgrounds/t1.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    margin-top: 1em;
 }
 .about-inner p {
     color: #777;
@@ -490,7 +497,7 @@ span.border.one:after {
 .about-left {
       padding: 1.5em 0 4.7em 0;
     float: right;
-    background: #f4f4f4;
+    background: #fff;
 }
 .about-left-grid ul li a {
        padding: 0.6em 2em;
@@ -592,7 +599,7 @@ span.border.one:after {
 }
 .wthree_about_right_grid_right p{
 	    margin: 1em 0 0;
-    color: #586371;
+    color: #C7C7C7;
     line-height: 1.9em;
     font-size: 0.9em;
 }
@@ -1202,7 +1209,7 @@ ul.social-icons.two {
 	outline:none;
 }
 .mail_right {
-    background: #FDFFFE;
+    background: #fff;
     padding: 2em;
 }
 span.border.two {
@@ -1245,7 +1252,7 @@ span.border.three:after {
 }
 /*-- footer --*/
 .footer {
-    background: url(../images/contact.jpeg) no-repeat center top;
+    background: url(../images/backgrounds/t13.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1253,6 +1260,7 @@ span.border.three:after {
     -ms-background-size: cover;
     min-height: 650px;
     padding:5em 0 0 0;
+    margin-top: 1em;
 }
 .footer_top ul li{
 	font-size:22px;
@@ -1434,7 +1442,7 @@ span.border.three:after {
 	.about-left {
 		padding: 3em 0 3em 0;
 		float: none;
-		background: #f4f4f4;
+		background: #fff;
 	}
 	.about-left-grid {
 		width:80%;
