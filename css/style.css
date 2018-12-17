@@ -771,6 +771,9 @@ h4.timeline-title a:hover {
   border-bottom-left-radius: 50%;
 }
 
+.timeline > li > .timeline-badge:hover {
+    color: transparent;
+}
 .timeline-badge.primary {
   background-color: #eb5424 !important;
 }
@@ -796,6 +799,16 @@ h4.timeline-title {
        color: #1b242f;
     font-size: 1.2em;
         font-weight: 600;
+}
+h4.timeline-title-body {
+    font-size: 1.2em;
+    margin: 0;
+    color: #777;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+h4.timeline-title-body:hover {
+    color: #00C6D7;
 }
 ul.year {
     text-align: right;
