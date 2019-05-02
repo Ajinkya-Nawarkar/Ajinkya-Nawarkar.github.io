@@ -812,7 +812,7 @@ h4.timeline-title-body:hover {
 }
 ul.year {
     text-align: right;
-	    margin-left: 0em;
+	    margin-left: -3em;
 }
 ul.year li {
      list-style: none;
