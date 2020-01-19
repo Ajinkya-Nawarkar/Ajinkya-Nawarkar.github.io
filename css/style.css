@@ -774,27 +774,41 @@ h4.timeline-title a:hover {
 .timeline > li > .timeline-badge:hover {
     color: transparent;
 }
-.timeline-badge.primary {
+.timeline-badge.orange {
   background-color: #eb5424 !important;
 }
-
-.timeline-badge.success {
+.timeline-badge.green {
   background-color: #237f52 !important;
 }
-
 .timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
-
 .timeline-badge.danger {
   background-color: #bb1e10 !important;
 }
-.timeline-badge.pass {
+.timeline-badge.yellow {
   background-color: #fdbd10 !important;
 }
-.timeline-badge.info {
+.timeline-badge.blue {
   background-color: #44c7f4 !important;
 }
+.timeline-badge.black {
+  background-color: #000000 !important;
+}
+.timeline-badge.maroon {
+  background-color: #800000 !important;
+}
+.timeline-badge.adtran {
+  background-color: #009900 !important;
+}
+.timeline-badge.qualcomm {
+  background-color: #0045ff !important;
+}
+.timeline-badge.google {
+  background-color: #0099ff !important;
+}
+
+
 h4.timeline-title {
        color: #1b242f;
     font-size: 1.2em;
